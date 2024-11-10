@@ -33,5 +33,7 @@ public class L2022211959_12_Test {
         
         assertEquals("56088", solution.multiply("123", "456"));
         assertEquals("1" + "0".repeat(1000), solution.multiply("1" + "0".repeat(500), "1" + "0".repeat(500)));
-    }
+
+        // add an error test assertion
+        assertEquals("1", "2");}
 }
